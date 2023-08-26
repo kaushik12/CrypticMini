@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CrypticMini/static/css/main.073c9b0a.css",
+    "main.js": "/CrypticMini/static/js/main.58056de5.js",
+    "static/js/787.4c1f51f6.chunk.js": "/CrypticMini/static/js/787.4c1f51f6.chunk.js",
+    "index.html": "/CrypticMini/index.html",
+    "main.073c9b0a.css.map": "/CrypticMini/static/css/main.073c9b0a.css.map",
+    "main.58056de5.js.map": "/CrypticMini/static/js/main.58056de5.js.map",
+    "787.4c1f51f6.chunk.js.map": "/CrypticMini/static/js/787.4c1f51f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.58056de5.js"
+  ]
+}
