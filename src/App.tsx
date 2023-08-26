@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import CrosswordApp from './components/Crossword';
 
 const Page = styled.div`
-  padding: 2em;
+  padding: 3%;
 `;
 
 const Title = styled.h1`
@@ -15,9 +15,7 @@ const SubTitle = styled.h3`
   color: grey;
 `;
 
-const Line = styled.div`
-  margin-left: 2em;
-  width: 50em;
+const Line = styled.div`  
   border-bottom: 1px solid black;
   position: absolute;
 `;
@@ -28,11 +26,15 @@ function App() {
 
   return (
     <Page>
-      <div style={{ display: 'flex', alignItems: 'center', width: '52em', height: '3.5em' }}>
-        <Title style={{ flex: '1', marginLeft: '1em' }}>Cryptic Mini</Title>
-        <SubTitle style={{ flex: '1', textAlign: 'right' }}>26/08/2023</SubTitle>
+      <div style={{ display: 'flex', flexDirection: 'column', width: '100%', maxWidth: '850px' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '2.5em' }}>
+          <Title style={{ marginLeft: '1em', textAlign: 'left' }}>Cryptic Mini</Title>
+          <SubTitle style={{ marginLeft: '1em', paddingRight: '1em', textAlign: 'right' }}>26/08/2023</SubTitle>
+        </div>
+        <hr style={{ display: 'block', margin: '0.5em 0', marginLeft: '2em', }}></hr>
+        {/* <hr style={{ marginLeft: '2em', paddingRight: '2em', width: '100%', maxWidth: '850px', }}></hr> */}
       </div>
-      <Line></Line>
+
       <CrosswordApp />
     </Page>
   )

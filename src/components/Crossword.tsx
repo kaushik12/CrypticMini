@@ -13,21 +13,34 @@ import { useStopwatch } from 'react-timer-hook';
 
 
 const CrosswordProviderWrapper = styled.div`
-  max-width: 50em;
-  padding: 2em;
+  width: 95%;
+//   min-width: 20em;
+  padding: 2% 3.5%;
   display: flex;
-  gap: 1em;
+  flex-wrap:wrap;
+  @media (max-width:600px){
+      justify-content:center;
+  }
+
+  
+  gap: 10px;
 
   .direction {
-    width: 15em;
+    max-width: 275px;
+    min-width: 275px;
+    align-content:center;
+    // size: 50%;
 
     .header {
       margin-top: 0;
+      margin-bottom:2%;
     }
   }
 
   .grid {
-    width: 10em;
+    max-width: 250px;
+    min-width: 200px;
+    align-content:center;
   }
   
   .clue {
@@ -132,13 +145,12 @@ function CrosswordApp() {
 
     return (
         <div>
-            <div style={{ display: 'flex', alignItems: 'center', width: '52em', paddingTop: '0.5em' }}>
-                <div style={{ flex: '90%', textAlign: 'left', marginLeft: '2em' }}>
+            <div style={{ display: 'flex', maxWidth: '52em' }}>
+                <div style={{ flexGrow: '1', textAlign: 'left', marginLeft: '2em' }}>
                     <div style={{ fontSize: '18px', color: '#1e90ff', fontWeight: 'bold' }}>
                         <span>{String(minutes).padStart(2, '0')}</span>:<span>{String(seconds).padStart(2, '0')}</span>
                     </div>
                 </div>
-
                 <FontAwesomeIcon
                     icon={faCircleCheck}
                     onClick={() => {
@@ -148,7 +160,7 @@ function CrosswordApp() {
                     color={'#1e90ff'}
                     size={"lg"}
                     className={'soln'}
-                    style={{ flex: '1', paddingLeft: '0.5em', paddingRight: '0.5em' }} />
+                    style={{ display: 'flex', paddingLeft: '0.5em', paddingRight: '0.5em' }} />
                 <FontAwesomeIcon
                     icon={faArrowsRotate}
                     onClick={() => {
@@ -158,7 +170,7 @@ function CrosswordApp() {
                     color={'#1e90ff'}
                     size={"lg"}
                     className={'reset'}
-                    style={{ flex: '1', paddingLeft: '0.5em', paddingRight: '0.5em' }} />
+                    style={{ display: 'flex', paddingLeft: '0.5em', paddingRight: '1em' }} />
                 <Tooltip anchorSelect=".soln" content="Show solution" place="bottom" />
                 <Tooltip anchorSelect=".reset" content="Reset grid" place="bottom" />
             </div>
