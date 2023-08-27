@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Cryptic Mini",
+  "name": "Like NYT Mini but the clues are cryptic",
   "icons": [
     {
       "src": "favicon.ico",
