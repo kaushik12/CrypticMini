@@ -29,7 +29,7 @@ function App() {
       <div style={{ display: 'flex', flexDirection: 'column', width: '100%', maxWidth: '850px' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '2.5em' }}>
           <Title style={{ marginLeft: '1em', textAlign: 'left' }}>Cryptic Mini</Title>
-          <SubTitle style={{ marginLeft: '1em', paddingRight: '1em', textAlign: 'right' }}>26/08/2023</SubTitle>
+          <SubTitle style={{ marginLeft: '1em', paddingRight: '1em', textAlign: 'right' }}>07/09/2023</SubTitle>
         </div>
         <hr style={{ display: 'block', margin: '0.5em 0', marginLeft: '2em', }}></hr>
         {/* <hr style={{ marginLeft: '2em', paddingRight: '2em', width: '100%', maxWidth: '850px', }}></hr> */}

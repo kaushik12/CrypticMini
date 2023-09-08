@@ -56,67 +56,44 @@ const Command = styled.button`
 `;
 
 const data = {
+    date: '07/09/2023',
     across: {
         1: {
-            clue: 'Bachelor starts running a pub',
-            answer: 'BAR',
+            clue: 'Requests improperly for a part of flower',
+            answer: 'SEPAL',
             row: 0,
             col: 0,
         },
         4: {
-            clue: 'Indian, say, rocking the canoe',
-            answer: 'OCEAN',
-            row: 1,
-            col: 0,
-        },
-        7: {
-            clue: 'Beret rouge exhibiting 70s style',
-            answer: 'RETRO',
+            clue: 'A cereal for a nut',
+            answer: 'ACORN',
             row: 2,
             col: 0,
         },
-        8: {
-            clue: 'Online agreement?',
-            answer: 'ESIGN',
-            row: 3,
-            col: 0,
-        },
-        9: {
-            clue: 'Poet for the most part!',
-            answer: 'POE',
+        5: {
+            clue: 'Demo jingle featuring an icon',
+            answer: 'EMOJI',
             row: 4,
-            col: 2,
+            col: 0,
         },
     },
     down: {
         1: {
-            clue: 'Dull drill',
-            answer: 'BORE',
+            clue: 'What often has a heart beat?',
+            answer: 'SPADE',
             row: 0,
             col: 0,
         },
         2: {
-            clue: 'Breezes through AA?',
-            answer: 'ACES',
-            row: 0,
-            col: 1,
-        },
-        3: {
-            clue: 'Note end to clue again',
-            answer: 'RETIP',
+            clue: 'Publicity for a second',
+            answer: 'PROMO',
             row: 0,
             col: 2,
         },
-        5: {
-            clue: 'Movie trimmed technical language',
-            answer: 'ARGO',
-            row: 1,
-            col: 3,
-        },
-        6: {
-            clue: 'Not a single person heard the sister',
-            answer: 'NONE',
-            row: 1,
+        3: {
+            clue: 'Garment I found behind organ',
+            answer: 'LUNGI',
+            row: 0,
             col: 4,
         },
     },

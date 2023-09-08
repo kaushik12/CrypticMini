@@ -1,0 +1,67 @@
+{
+date: '26/08/2023',
+across: {
+    1: {
+        clue: 'Bachelor starts running a pub',
+        answer: 'BAR',
+        row: 0,
+        col: 0,
+    },
+    4: {
+        clue: 'Indian, say, rocking the canoe',
+        answer: 'OCEAN',
+        row: 1,
+        col: 0,
+    },
+    7: {
+        clue: 'Beret rouge exhibiting 70s style',
+        answer: 'RETRO',
+        row: 2,
+        col: 0,
+    },
+    8: {
+        clue: 'Online agreement?',
+        answer: 'ESIGN',
+        row: 3,
+        col: 0,
+    },
+    9: {
+        clue: 'Poet for the most part!',
+        answer: 'POE',
+        row: 4,
+        col: 2,
+    },
+},
+down: {
+    1: {
+        clue: 'Dull drill',
+        answer: 'BORE',
+        row: 0,
+        col: 0,
+    },
+    2: {
+        clue: 'Breezes through AA?',
+        answer: 'ACES',
+        row: 0,
+        col: 1,
+    },
+    3: {
+        clue: 'Note end to clue again',
+        answer: 'RETIP',
+        row: 0,
+        col: 2,
+    },
+    5: {
+        clue: 'Movie trimmed technical language',
+        answer: 'ARGO',
+        row: 1,
+        col: 3,
+    },
+    6: {
+        clue: 'Not a single person heard the sister',
+        answer: 'NONE',
+        row: 1,
+        col: 4,
+    },
+},
+}
